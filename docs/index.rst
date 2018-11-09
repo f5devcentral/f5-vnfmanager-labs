@@ -23,7 +23,7 @@ and support personnel instructions to create and start UDF VNFm environment.
 .. toctree::
    :caption: Reference Documents:
    :glob:
-   :maxdepth: 2
+   :maxdepth: 1
 
    class1/workflows.rst
    class1/CM-UseSecrets.rst

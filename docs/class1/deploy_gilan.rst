@@ -1,4 +1,4 @@
-Part III. Deploy local F5 Gilan blueprint and create traffic server VM
+Part III. Deploy Local F5 Gilan Blueprint and Create Traffic Server VM
 ======================================================================
 
 1. :ref:`Deploy Gilan blueprint <gilan>`
@@ -49,10 +49,8 @@ Resulting Gilan deployment architecture includes 2 DAG and 2 ( master + 1 slave)
 
 .. |clip_deploy| image:: images/clip.png
 
-
 For more information about Install Workflow see:
 :doc:`Install Workflow <CM-install-wf>`
-
 
 .. _servervm:
 
@@ -81,7 +79,6 @@ Run the following script:
 :menuselection:`Project -> Compute -> Instances`
 
 .. image:: images/traffic_server_vm.png
-
 
 3. Review target traffic flows
 
@@ -171,8 +168,6 @@ Step 3. Run test traffic to validate connectivity
     Thursday November,08 2018 - 14:40:38 (UTC)
     Hello!
 
-
-
 .. |source_deploy| raw:: html
 
     <a href="https://docs.openstack.org/horizon/rocky/user/launch-instances.html" target="_blank">Source</a>
@@ -204,7 +199,6 @@ Step 3. Run test traffic to validate connectivity
 .. |workflows| raw:: html
 
     <a href="https://clouddocs.f5.com/cloud/nfv/latest/use.html#run-workflows" target="_blank">Run Workflows</a>
-
 
 What’s Next?
 

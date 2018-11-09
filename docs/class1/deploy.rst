@@ -13,7 +13,6 @@ To deploy F5 VNFM, do the following:
 
 5. :ref:`Define parameters in the inputs.yaml file <yaml>`
 
-
 .. _launch:
 
 Step 1: Launch an instance in OpenStack
@@ -47,7 +46,6 @@ Component                                                    Description
 ============================================================ ======================================================================================================================================================================================================================================================================
 
 2.	For all other Instance component definitions, use the default values provided by OpenStack. For details, see |OSLnchIn_deploy|.
-
 
 .. |source_deploy| raw:: html
 
@@ -89,7 +87,6 @@ Component                                                    Description
 
     <a href="https://docs.openstack.org/horizon/rocky/user/launch-instances.html" target="_blank">Upload and manage instances on the docs.openstack.org</a>
 
-
 .. _fip:
 
 Step 2: Add a floating IP
@@ -97,7 +94,6 @@ Step 2: Add a floating IP
 
 Once you launch your instance in OpenStack, expand the :guilabel:`Create Snapshot` drop-down next to your instance in the table, and select |FlIPAd_deploy| from the list. Choose an IP address from the list. If none, click :guilabel:`+` to add one.
 This allocates the floating `extnet` IP on the management network. Do this to access the VNFM externally from a browser, using https.
-
 
 .. |FlIPAd_deploy| raw:: html
 
@@ -111,7 +107,6 @@ Step 3: Access F5 VNFM UI
 To acces your VNFM, point your browser to the public floating `10.1.20.x` IP address you created and assigned in the previous steps, using https.
 
 .. image:: images/vnfm-ip.png
-
 
 .. _secrets:
 
@@ -144,9 +139,7 @@ For more information, see :doc:`using the secret store <CM-UseSecrets>`.
 
         $sudo ~/Downloads/vnfm-secrets.sh <vnfmanager .40 net IP>
 
-
 For list of credentials updated by script, see |secretstore|
-
 
 .. |edit_deploy| image:: images/edit.png
 
@@ -157,7 +150,6 @@ For list of credentials updated by script, see |secretstore|
 .. |secretstore| raw:: html
 
     <a href="https://clouddocs.f5.com/cloud/nfv/latest/deploy.html#step-5-manage-secrets" target="_blank">Manage Secrets</a>
-
 
 .. _yaml:
 
@@ -176,20 +168,16 @@ floating_network_id: :menuselection:`Horizon UI: Project -> Networks -> Network 
 
 .. image:: images/extnet.png
 
-
 2.	Save the .yaml file. You will upload this file into VNFM in the next step, deploy F5 Gilan blueprint.
 
-
-
 Gi LAN blueprint
-````````````````
+----------------
 
 For up-to-date gilan inputs YAML content see |inputs_yaml|
 
 .. |inputs_yaml| raw:: html
 
     <a href="https://clouddocs.f5.com/cloud/nfv/latest/deploy.html#step-6-define-parameters-in-the-inputs-yaml-file">inputs.yaml</a>
-
 
 What’s Next?
 

@@ -44,7 +44,6 @@ F5 offers the following VNFM solutions with built-in services. This lab uses Gi 
 |                        |                                                                                                                   |
 +------------------------+-------------------------------------------------------------------------------------------------------------------+
 
-
 F5 blueprint
 ------------
 A blueprint is a model of your application’s topology and its operations implementation written in a YAML Domain
@@ -109,7 +108,6 @@ for example:
       - type: cloudify.relationships.depends_on
         target: pgw_lbs_ve_revoke_license
 
-
 -  **Nodes**—-all components in your network are listed in the nodes section (YAML list) in the blueprint YAML file, which
    defines the application topology of those components and the relationship between them.
 -  **Workflows**—-the different automation processes for the application are defined in the workflow section of the blueprint
@@ -117,11 +115,9 @@ for example:
 -  **Plugins**-—communicate with external services, such as: cloud services like OpenStack, container-management systems like
    Kubernetes, configuration management tools like Ansible, and other communication protocols like HTTP and SSH.
 
-
 What’s Next?
 
 :doc:`Deploy VNFM orchestration <deploy>`
-
 
 .. |F5dwnlds_setup| raw:: html
 

@@ -1,11 +1,9 @@
-VNF manager Workflows
+VNF Manager Workflows
 =====================
-
 
 .. _matrix:
 
 VNF manager Workflow-deployment matrix: |matrix|
-
 
 .. _workflows:
 
@@ -19,7 +17,6 @@ VNF manager Workflow-deployment matrix: |matrix|
    CM-heal-wf.rst
    CM-AS3-update.rst
    CM-uninstall-wf.rst
-
 
 .. |matrix| raw:: html
 

@@ -1,19 +1,19 @@
 Sample Gi LAN Inputs File
 =========================
 
-You will copy and paste the following code sample into a new YAML file you will use for the *Gi LAN Solution*. Then you will change the values according to your implementation, and save it locally.
-Once completed, you will |uploadFile_gi-inputs| into VNFM to auto-complete the F5 blueprint. Learn more about these |definitions_gi-inputs|.
-
+You will copy and paste the following code sample into a new YAML file you will
+use for the *Gi LAN Solution*. Then you will change the values according to
+your implementation, and save it locally. Once completed, you will
+|uploadFile_gi-inputs| into VNFM to auto-complete the F5 blueprint. Learn more
+about these |definitions_gi-inputs|.
 
 .. |uploadFile_gi-inputs| raw:: html
 
     <a href="https://clouddocs.f5networks.net/cloud/nfv/latest/deploy.html#step-7-deploy-local-f5-gilan-blueprint">upload this inputs file</a>
 
-
 .. |definitions_gi-inputs| raw:: html
 
     <a href="https://clouddocs.f5networks.net/cloud/nfv/latest/deploy.html#gi-lan-blueprint">parameter descriptions</a>
-
 
 .. code-block:: console
 

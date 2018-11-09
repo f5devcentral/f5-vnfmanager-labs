@@ -1,4 +1,4 @@
-Update FW layer configuration Workflow
+Update FW Layer Configuration Workflow
 ======================================
 
 **Workflow name:** **``AS3 Update``**

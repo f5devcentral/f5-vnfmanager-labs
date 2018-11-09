@@ -1,9 +1,8 @@
-Part IV. Trigger auto scale-out
+Part IV. Trigger Auto Scale-Out
 ===============================
 
 1. :ref:`Run Apache Bench <traffic_run>`
 2. :ref:`Watch BIG-IP and Nagios statistics, VNF manager actions <watch>`
-
 
 .. _traffic_run:
 
@@ -18,12 +17,10 @@ Step 1. Run Apache Bench from traffic_gen VM
 
 2. Log files are generated for each thread and are located in the same directory (ab[1-10].out)
 
-
 .. _watch:
 
 Step 2. Watch BIG-IP and Nagios statistics, scaleout process in VNF manager
 ---------------------------------------------------------------------------
-
 
 1. Point Jumphost Browser to a `master` VNF(FW) BIG-IP instance .40 IP address and login to BIG-IP TMUI
     a. Navigate to :guilabel:`Statistics` --> :guilabel:`Analytics` --> :guilabel:`CPU`
@@ -48,7 +45,6 @@ After 2-3 minutes Nagios will show a **CRITICAL** alarm when CPU utilization on 
 
 .. image:: images/auto_scaleout.png
 
-
 .. |menuIcon_use| image:: images/menuIcon.png
 
 4. Stop the traffic using the following script:
@@ -56,7 +52,6 @@ After 2-3 minutes Nagios will show a **CRITICAL** alarm when CPU utilization on 
     .. code-block:: console
 
         ./stop_traffic.sh
-
 
 What’s Next?
 

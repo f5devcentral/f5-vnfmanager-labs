@@ -1,4 +1,4 @@
-Part V. Initiate manual scale-out
+Part V. Initiate Manual Scale-Out
 =================================
 
 1. :ref:`Execute scale-out workflow <scaleout>`
@@ -18,7 +18,6 @@ Expand |menuIcon_deploy|, click :guilabel:`Gilan scale out group`. Keep `add_ins
 .. image:: images/man_scaleout.png
 
 .. |menuIcon_deploy| image:: images/menuIcon.png
-
 
 .. _newdag:
 
@@ -46,23 +45,18 @@ Step 3. Run test traffic
 
 .. note:: This test is the same as in Part III Step 3 of this lab guide
 
-
 2. Point Jumphost Browser to new DAG BIG-IP instance .40 IP address and login to BIG-IP TMUI
 3. Navigate to :guilabel:`Local Traffic` --> :guilabel:`Virtual Servers`, then select `f5vnf` partition from :guilabel:`Partition:` menu
 4. Select `firewall_fastL4` VS and click on :guilabel:`Statistics` menu
 
     Traffic statistics will be visible in `Traffic Details` and `Connections` parts of Statistics screen. Note that due to the asymmetric routing, return traffic is NOT passing through the same DAG instance
 
-
 .. image:: images/module_stats.png
 
 .. note:: Other methods may be used to validate that the traffic is flowing through new DAG instances including running a tcpdump
 
-
-
 For more information about Scale Workflow see:
 :doc:`The Scale Workflow <CM-scale-wf>`
-
 
 What’s Next?
 

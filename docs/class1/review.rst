@@ -1,4 +1,4 @@
-Part I. Review and prepare UDF Openstack environment
+Part I. Review and Prepare UDF Openstack Environment
 ====================================================
 
 UDF blueprint for VNF manager lab has been created with Openstack Newton ( community equivalent of RH OSP 10). Due to UDF specifics, parts of networking config need to be re-created for each deployment.
@@ -10,14 +10,12 @@ In order to successfully use VNF manager lab you will need to run the specified 
 4. :ref:`Review Openstack configuration <review>`
 5. :ref:`Verify BIG-IQ route <route>`
 
-
 .. _setup:
 
 Blueprint setup
 ---------------
 
 .. image:: images/udf_bp.png
-
 
 .. _credentials:
 
@@ -38,7 +36,6 @@ Openstack CLI(controller)                       sudo -i;source keystonerc_f5admi
 keystone                                        f5admin/f5admin
 =============================================== =====================================================
 
-
 .. _start:
 
 Start UDF environment
@@ -48,27 +45,22 @@ Start UDF environment
     
 .. image:: images/bp2.png
 
-
 2. **Wait until all components are in "Running" state. BIG-IQ usually boots last**
     
 .. image:: images/running.png
-
 
 3. **Login to BIG-IQ TMUI and ensure "regkeys" licenses are present and unexpired**
     
 .. image:: images/lic.png
 
-
 .. warning:: 
     Wait at least 5 minutes to allow Openstack Services to come up before running the script
-
 
 4. **xRDP to jumphost and run "run_this_first.sh" script**
     
 .. note:: When prompted, choose to run the script in Terminal 
     
 .. image:: images/script.png
-
 
 .. note:: Script performs the following: 
     Creates extnet Openstack network and 2 Routers with corresponding interfaces; starts rabbitmq-server on controller node; forces Nova service to register compute nodes with new hostnames and creates necessary routes on jumphost and BIG-IQ VMs
@@ -77,9 +69,7 @@ Start UDF environment
 
 .. image:: images/controller.png
 
-
 6. **Login with f5admin user**
-
 
 .. _review:
 
@@ -123,7 +113,6 @@ Component                                                    Description
 |router_setup| (Project->Network->Routers)                   Created 2 routers with interfaces into VxLANs (router1 is connected to extnet)
 ============================================================ =============================================================================================================================================================================
 
-
 .. _route:
 
 Verify BIG-IQ route
@@ -153,11 +142,9 @@ Open UDF :guilabel:`Console` or :guilabel:`SSH(47010)` to BIG-IQ and confirm tha
 
 .. note:: If BIG-IQ doesn't show a valid route into .40 subnet, run the "run_this_first.sh" script again and seek assistance before proceeding further
 
-
 What's Next?
 
 :doc:`Set up VNFM <setup>`
-
 
 .. |flavors_setup| raw:: html
 

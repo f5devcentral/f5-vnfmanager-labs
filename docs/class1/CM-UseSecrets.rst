@@ -1,5 +1,5 @@
 
-Use the Secret Store
+Use The Secret Store
 ====================
 
 The secrets store provides a secured variable storage (key-value pairs)
@@ -15,8 +15,6 @@ stored separately from blueprints, and that the secrets adhere to
 isolation requirements between different tenants. You can include the
 secret key in your blueprints and not include the actual values in the
 blueprints. For more information, see the get_secret_ intrinsic function.
-
-
 
 Secrets with a hidden value
 ```````````````````````````
@@ -116,7 +114,6 @@ The function is evaluated at runtime.
 
    webserver_url: description: Web server url value: { concat: [‘http://’,
    { get_secret: ip }, ‘:’, { get_secret: webserver_port }] }
-
 
 In this example, get_secret is used for completing several of the host
 node’s properties, as well as an operation input. In addition, it is

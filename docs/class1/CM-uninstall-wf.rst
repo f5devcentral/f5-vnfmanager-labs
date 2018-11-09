@@ -31,7 +31,6 @@ For each node, for each node instance (in parallel):
       ``stop`` and ``uninstall`` operations. [1]_
    -  Stop and uninstall agent workers.
 
-
 4. Execute ``cloudify.interfaces.lifecycle.stop`` operation. [1]_
 
 5. Execute ``cloudify.interfaces.relationship_lifecycle.unlink``
