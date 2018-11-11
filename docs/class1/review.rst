@@ -34,6 +34,7 @@ BIG-IP VMs TMUI                                 admin/admin
 BIG-IP VMs SSH                                  root/default
 Openstack CLI(controller)                       sudo -i;source keystonerc_f5admin
 keystone                                        f5admin/f5admin
+nagios                                          testuser/testpass
 =============================================== =====================================================
 
 .. _start:
