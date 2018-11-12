@@ -24,7 +24,7 @@ Expand |menuIcon_deploy|, click :guilabel:`Gilan scale out group`. Keep `add_ins
 Step 2. Modify openstack route
 ------------------------------
 
-1. Note newly created DAG layer BIG-IP `pgw_net`  
+1. Open Openstack Horizon UI and go to :guilabel:`Project` --> :guilabel:`Compute` --> :guilabel:`Instances` and find the latest DAG instance that is in the process of being created. Note which IP address was assigned to it on the **pgw_net** subnet 
 
 2. Select :guilabel:`Project` --> :guilabel:`Network` --> :guilabel:`Routers` and click on :guilabel:`router1`
     Open :guilabel:`Static Routes` tab and click on :guilabel:`Delete Static Route` to delete previously provisioned route.
