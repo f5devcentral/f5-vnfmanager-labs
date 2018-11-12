@@ -7,4 +7,4 @@ and support personnel instructions to create and start UDF VNFm environment.
 
 .. attention::
    * The lab guide is hosted here:
-     https://clouddocs.f5.com/training/community/vnfmanager/html/
+     https://clouddocs.f5.com/training/community/sp/html/
