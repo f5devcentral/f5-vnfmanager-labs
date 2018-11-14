@@ -11,7 +11,7 @@ Part IV. Trigger Auto Scale-Out
 Step 1. Login to VNF master BIG-IP and Nagios Web UI
 ----------------------------------------------------
 
-1. Point Jumphost Browser to a `master` VNF(FW) BIG-IP instance .40 IP address (in Horizon UI :guilabel:`Project` --> :guilabel:`Instances` look for  **vnf_ve_master** VM) and login to BIG-IP TMUI
+1. Point Jumphost Browser to a `slave` VNF(FW) BIG-IP instance .40 IP address (in Horizon UI :guilabel:`Project` --> :guilabel:`Instances` look for  **vnf_ve_master** VM) and login to BIG-IP TMUI
     a. Navigate to :guilabel:`Statistics` --> :guilabel:`Analytics` --> :guilabel:`CPU`
     b. Watch CPU graph as it crosses pre-defined 40% CPU threshold
 
