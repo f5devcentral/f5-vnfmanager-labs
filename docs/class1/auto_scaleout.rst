@@ -6,7 +6,6 @@ Part IV. Trigger Auto Scale-Out
 3. :ref:`Watch BIG-IP and Nagios statistics, VNF manager actions <watch>`
 4. :ref:`Stop the traffic <traffic_stop>`
 
-
 .. _login:
 
 Step 1. Login to VNF master BIG-IP and Nagios Web UI
@@ -21,8 +20,6 @@ Step 1. Login to VNF master BIG-IP and Nagios Web UI
 
     .. image:: images/nagios.png
 
-
-
 .. _traffic_run:
 
 Step 2. Run Apache Bench from traffic_gen VM
@@ -35,8 +32,6 @@ Step 2. Run Apache Bench from traffic_gen VM
         ./run_traffic.sh 10.1.52.101
 
 2. Log files are generated for each thread and are located in the same directory (ab[1-10].out)
-
-
 
 .. _watch:
 
@@ -59,9 +54,7 @@ Step 3. Watch BIG-IP and Nagios statistics, VNF manager actions
 
 .. |menuIcon_use| image:: images/menuIcon.png
 
-
-
-.. _traffic_run:
+.. _traffic_stop:
 
 Step 4. Stop the traffic
 -------------------------
