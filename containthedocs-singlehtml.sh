@@ -2,12 +2,7 @@
 
 set -x
 
-if [ "$#" -ne 1 ]; then
-	echo "Usage $0 <file.docx>"
-	exit 1
-fi
-
-COMMAND="scripts/convertdocx.sh $1"
+COMMAND="make -C docs singlehtml"
 
 . ./containthedocs-image
 
